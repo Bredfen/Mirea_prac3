@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mirea_db_2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:35:9-71
+15-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:35:26-68
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:34:9-79
+16-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:34:26-76
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:36:9-83
+17-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:36:26-80
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:37:9-80
+18-->C:\Users\Bredfen\Desktop\mirea_db-prac3\android\app\src\main\AndroidManifest.xml:37:26-77
+19
+20    <application
+21        android:name="android.app.Application"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.8.0] C:\Users\Bredfen\.gradle\caches\transforms-3\d363e3b5616f580c766e3e2b3c05f27d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+25        android:label="mirea_db_2" >
+26        <activity
+27            android:name="com.example.mirea_db_2.MainActivity"
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29            android:exported="true"
+30            android:hardwareAccelerated="true"
+31            android:launchMode="singleTop"
+32            android:theme="@style/LaunchTheme"
+33            android:windowSoftInputMode="adjustResize" >
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+42                android:name="io.flutter.embedding.android.NormalTheme"
+43                android:resource="@style/NormalTheme" />
+44
+45            <intent-filter>
+46                <action android:name="android.intent.action.MAIN" />
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+56            android:name="flutterEmbedding"
+57            android:value="2" />
+58
+59        <provider
+59-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+60            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+60-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+61            android:authorities="com.example.mirea_db_2.flutter.image_provider"
+61-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+62            android:exported="false"
+62-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+63            android:grantUriPermissions="true" >
+63-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+64            <meta-data
+64-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+66                android:resource="@xml/flutter_image_picker_file_paths" />
+66-->[:image_picker_android] C:\Users\Bredfen\Desktop\mirea_db-prac3\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+67        </provider>
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\Bredfen\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+75    </application>
+76
+77</manifest>

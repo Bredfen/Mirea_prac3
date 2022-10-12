@@ -1,0 +1,4 @@
+#Wed Oct 12 17:16:28 MSK 2022
+base.0=C\:\\Users\\Bredfen\\Desktop\\mirea_db-prac3\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

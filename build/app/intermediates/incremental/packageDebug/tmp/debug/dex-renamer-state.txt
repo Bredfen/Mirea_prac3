@@ -1,0 +1,4 @@
+#Wed Oct 12 16:50:12 MSK 2022
+base.0=C\:\\Users\\Bredfen\\Desktop\\mirea_db-prac3\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
